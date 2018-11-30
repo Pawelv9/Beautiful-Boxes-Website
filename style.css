@@ -14,6 +14,9 @@
     box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px, inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
 }
 
+
+/* Navigation */
+
 .main-nav {
     display: flex;
     list-style: none;
@@ -62,6 +65,16 @@ a {
 }
 
 
+/* Cover */
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+}
+
+
 /* Red box */
 
 .red {
@@ -82,6 +95,9 @@ a {
 }
 
 
+/* Project Grid */
+
+
 /* Yellow box */
 
 .yellow {
@@ -100,6 +116,9 @@ a {
     background: linear-gradient(top, #F3AAAA 0%, #febf04 100%);
     /* W3C */
 }
+
+
+/* Footer */
 
 
 /* Blue box */
