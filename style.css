@@ -97,6 +97,29 @@ a {
 
 /* Project Grid */
 
+.grid-wrapper {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr))
+}
+
+.box>img {
+    width: 100%
+}
+
+.box {
+    background-color: rgb(72, 7, 146);
+    padding: 140px;
+    margin: 30px;
+}
+
+
+/* Footer */
+
+footer {
+    text-align: center;
+}
+
 
 /* Yellow box */
 
